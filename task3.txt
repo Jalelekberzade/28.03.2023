@@ -1,0 +1,26 @@
+using System;
+
+
+namespace Jale
+{
+    class Jalelekberzade
+    {
+        static void Main(string[] args)
+        {  
+            Console.Write("Ədəd daxil edin:");
+            int number = int.Parse(Console.ReadLine());
+            if (number == 0 )
+            {
+                Console.WriteLine("Ədəd 0-a bərabərdir.");
+            }
+            else if (number > 0)
+            {
+                Console.WriteLine("Ədəd müsbətdir.");
+            }
+            else
+            {
+                Console.WriteLine("Ədəd mənfidir.");
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+using System;
+
+
+namespace Jale
+{
+    class Jalelekberzade
+    {
+        static void Main(string[] args)
+        {  
+            Console.Write("Yaşınızı daxil edin:");
+            int age = int.Parse(Console.ReadLine());
+            if (age < 18 )
+            {
+                Console.WriteLine("Səsvermə hüququna malik deyilsiniz.");
+            }
+            else
+            {
+                Console.WriteLine("Səsverməyə başlaya bilərsiniz.");
+            }
+        }
+    }
+}

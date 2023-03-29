@@ -1,0 +1,30 @@
+using System;
+
+
+namespace Jale
+{
+    class Jalelekberzade
+    {
+        static void Main(string[] args)
+        {
+            bool isworking = true;
+            Console.Write("Enter your name:");
+            string name = Console.ReadLine();
+            Console.Write("Enter the number:");
+            int number = int.Parse(Console.ReadLine());
+            Console.Write("Enter the price:");
+            float price = float.Parse(Console.ReadLine());
+            Console.Write("Enter the character:");
+            char character = char.Parse(Console.ReadLine());
+            Console.Write("Enter your salary:");
+            double salary = double.Parse(Console.ReadLine());
+            Console.WriteLine($"Your name:{name}\n" +
+                $"Number:{number}\n" + 
+                $"Price:{price}\n" + 
+                $"Character:{character}\n" +
+                $"Salary:{salary}\n" +
+                $"Is working:{isworking}"
+                );
+        }
+    }
+}

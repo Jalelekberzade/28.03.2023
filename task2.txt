@@ -1,0 +1,16 @@
+using System;
+
+
+namespace Jale
+{
+    class Jalelekberzade
+    {
+        static void Main(string[] args)
+        {   
+            Console.WriteLine("Enter the number:");
+            int number = int.Parse(Console.ReadLine());
+            float num = Convert.ToSingle(number);
+            Console.WriteLine(num);
+        }
+    }
+}

@@ -1,0 +1,28 @@
+using System;
+
+
+namespace Jale
+{
+    class Jalelekberzade
+    {
+        static void Main(string[] args)
+        {  
+            string password = "Jale456";
+            Console.Write("Enter your password:");
+            string pass = Console.ReadLine();
+            while (pass != password)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Please input password correctly!");
+                Console.ResetColor();
+
+                Console.WriteLine("Enter your password:");
+                pass = Console.ReadLine();
+
+            }
+            Console.BackgroundColor = ConsoleColor.Green;
+            Console.WriteLine("You registered correctly!");
+            Console.ResetColor ();
+        }
+    }
+}
